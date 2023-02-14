@@ -3,8 +3,8 @@
 M = 1; N = 5. -> "1, 2, 3, 4, 5"
 M = 4; N = 8. -> "4, 6, 7, 8"   */
 
-int m = new Random().Next(1,10);
-int n = new Random().Next(1,10);
+int m = new Random().Next(1,6);
+int n = new Random().Next(5,10);
 System.Console.WriteLine( $"M = {m}; N = {n}");
 System.Console.WriteLine();
 System.Console.WriteLine("Числа в промежутке от M до N:");
